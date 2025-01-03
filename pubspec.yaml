@@ -27,6 +27,7 @@ dependencies:
   flutter_image_compress: ^2.3.0
   firebase_core: ^2.27.0
   firebase_analytics: ^10.0.7
+  shared_preferences: ^2.0.13
   table_calendar: ^3.0.9
 
 dev_dependencies:

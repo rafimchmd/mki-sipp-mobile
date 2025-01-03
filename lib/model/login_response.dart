@@ -4,13 +4,13 @@ class LoginResponse extends BaseResponse {
   Data? data;
   LoginResponse({this.data, super.code, super.status, super.message, super.url});
 
-  factory LoginResponse.fromJson(Map<String, dynamic> json) {
+  factory LoginResponse.fromJson(Map<String, dynamic>? json) {
     return LoginResponse(
-        data: json["data"] != null ? Data.fromJson(json["data"]) : null,
-      code: json["code"],
-      status: json["status"],
-      message: json["message"],
-      url: json["url"]
+        data: Data.fromJson(json?['data']),
+      code: json?["code"],
+      status: json?["status"],
+      message: json?["message"],
+      url: json?["url"]
     );
   }
 
