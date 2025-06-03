@@ -94,13 +94,11 @@ class _LoginState extends State<Login> {
                     const SizedBox(height: 16,),
                     Row(
                       children: [
-                        Text("Sistem Informasi Penunjang Penelitian", style: AppTextStyle.bold14Black,),
+                        Text("APLIKASI PENGHITUNGAN POHON", style: AppTextStyle.bold14Black,),
                         const SizedBox(width: 8,),
                         const Icon(Icons.lock, size: 16, color: Colors.grey,)
                       ],
                     ),
-                    const SizedBox(height: 12,),
-                    Text("Sistem Informasi Penunjang Penelitian", style: AppTextStyle.regular12Black,),
                     const SizedBox(height: 24,),
                     BaseInput(controller: _emailController, hint: "Email"),
                     const SizedBox(height: 16,),

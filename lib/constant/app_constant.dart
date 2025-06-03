@@ -2,7 +2,7 @@
 
 
 class AppConstant {
-  static const String baseUrl = "http://10.210.90.123/api";
+  static const String baseUrl = "https://treecounting.bnn.go.id/api";
 
   static Map<String, String> baseHeader = {
     "Content-Type": "application/json",

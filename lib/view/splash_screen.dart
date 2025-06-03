@@ -63,8 +63,8 @@ class SplashScreen extends StatelessWidget {
                     children: [
                       Image.asset('assets/images/general/app-icon.png'),
                       const SizedBox(height: 31,),
-                      Text("SIPP", style: AppTextStyle.bold24Black,),
-                      Text("Sistem Informasi Penunjang Penelitian", style: AppTextStyle.regular14Black,),
+                      Text("APLIKASI PENGHITUNGAN POHON", style: AppTextStyle.bold24Black,),
+                      Text("APLIKASI PENGHITUNGAN POHON", style: AppTextStyle.regular14Black,),
                     ],
                   ),
                 ),

@@ -44,7 +44,7 @@ class ResearchLocationBody extends StatelessWidget {
         scrolledUnderElevation: 0.0,
         elevation: 0.0,
         backgroundColor: Colors.white,
-        title: Text("Penelitian", style: AppTextStyle.bold14),
+        title: Text("Penghitungan", style: AppTextStyle.bold14),
       ),
       body: Stack(
         children: [

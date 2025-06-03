@@ -40,7 +40,7 @@ class ResearchDetail extends StatelessWidget {
           scrolledUnderElevation: 0.0,
           elevation: 0.0,
           backgroundColor: Colors.white,
-          title: Text("Detail Penelitian", style: AppTextStyle.bold14),
+          title: Text("Detail Penghitungan", style: AppTextStyle.bold14),
         ),
         body: SingleChildScrollView(
           child: Padding(
@@ -75,7 +75,7 @@ class ResearchDetail extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 24,),
-                Text("Hasil Penelitian", style: AppTextStyle.bold14Black,),
+                Text("Hasil Penghitungan", style: AppTextStyle.bold14Black,),
                 const SizedBox(height: 16,),
                 Text("(Klik pada gambar untuk zoom in/out)", style: AppTextStyle.regular12Grey,),
                 const SizedBox(height: 16,),
@@ -85,7 +85,7 @@ class ResearchDetail extends StatelessWidget {
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text("Lokasi Penelitian", style: AppTextStyle.regular12Grey,),
+                        Text("Lokasi Penghitungan", style: AppTextStyle.regular12Grey,),
                         Consumer<ResearchDetailProvider>(
                           builder: (context, provider, child) => Visibility(
                             visible: !provider.isLoading,
@@ -135,7 +135,7 @@ class ResearchDetail extends StatelessWidget {
                   ],
                 ),
                 const SizedBox(height: 24,),
-                Text("Lampiran Penelitian", style: AppTextStyle.bold14Black,),
+                Text("Lampiran Penghitungan", style: AppTextStyle.bold14Black,),
                 const SizedBox(height: 8,),
                 Text("(Klik pada gambar untuk perbesar)", style: AppTextStyle.regular12Grey,),
                 const SizedBox(height: 20,),

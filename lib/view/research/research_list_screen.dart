@@ -22,7 +22,7 @@ class ResearchListScreen extends StatelessWidget {
       appBar: AppBar(
         scrolledUnderElevation: 0.0,
         elevation: 0.0,
-        title: Text("Kategori Penelitian", style: AppTextStyle.bold14),
+        title: Text("Kategori Penghitungan", style: AppTextStyle.bold14),
       ),
       body: ListView.separated(
           itemCount: researches.length,

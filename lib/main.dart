@@ -8,6 +8,7 @@ import 'package:sipp_mobile/provider/app_provider.dart';
 import 'package:sipp_mobile/util/app_navigation.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
+import 'package:flutter_web_plugins/url_strategy.dart';
 
 void main() async {
 
@@ -18,7 +19,7 @@ void main() async {
   );
 
   await registerDependency();
-
+  usePathUrlStrategy();
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider(create: (context) => AppProvider()..getCurrentDate())

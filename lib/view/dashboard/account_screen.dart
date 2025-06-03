@@ -58,7 +58,7 @@ class AccountScreen extends StatelessWidget {
                         const SizedBox(height: 16,),
                         Row(
                           children: [
-                            Text("Sistem Informasi Penunjang Penelitian", style: AppTextStyle.bold14Black,),
+                            Text("APLIKASI PENGHITUNGAN POHON", style: AppTextStyle.bold14Black,),
                             const SizedBox(width: 8,),
                             const Icon(Icons.lock, size: 16, color: Colors.grey,)
                           ],

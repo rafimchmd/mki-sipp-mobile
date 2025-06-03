@@ -33,8 +33,8 @@ class MenuWidget extends StatelessWidget {
             Material(
               type: MaterialType.transparency,
               child: ListTile(
-                title: Text("Penelitian Lapangan", style: AppTextStyle.bold14Black,),
-                subtitle: Text('Laporan hasil penelitian lapangan yang sudah di lakukan', style: AppTextStyle.regular12Black,),
+                title: Text("Penghitungan Lapangan", style: AppTextStyle.bold14Black,),
+                subtitle: Text('Laporan hasil penghitungan lapangan yang sudah di lakukan', style: AppTextStyle.regular12Black,),
                 leading: Icon(Icons.search_off_rounded, color: AppColor.purple,),
                 splashColor: Colors.grey[250],
                 hoverColor: Colors.grey[100],
@@ -48,7 +48,7 @@ class MenuWidget extends StatelessWidget {
               type: MaterialType.transparency,
               child: ListTile(
                 title: Text("Program Deteksi Objek", style: AppTextStyle.bold14Black,),
-                subtitle: Text('Pendeteksian secara langsung untuk menunjang penelitian', style: AppTextStyle.regular12Black,),
+                subtitle: Text('Pendeteksian secara langsung untuk penghitungan', style: AppTextStyle.regular12Black,),
                 leading: Icon(Icons.settings_overscan_sharp, color: AppColor.bgGreenColor,),
                 splashColor: Colors.grey[250],
                 hoverColor: Colors.grey[100],
@@ -62,7 +62,7 @@ class MenuWidget extends StatelessWidget {
               type: MaterialType.transparency,
               child: ListTile(
                 title: Text("Kompres Gambar", style: AppTextStyle.bold14Black,),
-                subtitle: Text('Pendeteksian secara langsung untuk menunjang penelitian', style: AppTextStyle.regular12Black,),
+                subtitle: Text('Pendeteksian secara langsung untuk penghitungan', style: AppTextStyle.regular12Black,),
                 leading: Icon(Icons.photo_size_select_actual_outlined, color: AppColor.deepBlue,),
                 splashColor: Colors.grey[250],
                 hoverColor: Colors.grey[100],

@@ -93,10 +93,10 @@ class ImageResultWidget extends StatelessWidget {
                         ),
                       ),
                       const SizedBox(height: 24,),
-                      Text("Informasi Penelitian", style: AppTextStyle.bold14Black,),
+                      Text("Informasi Penghitungan", style: AppTextStyle.bold14Black,),
                       const SizedBox(height: 16,),
                       ListTile(
-                        title: Text(provider.selectedLocation == null ? 'Pilih Lokasi Penelitian (Wajib)' :
+                        title: Text(provider.selectedLocation == null ? 'Pilih Lokasi Penghitungan (Wajib)' :
                         "${provider.selectedLocation?.displayname}\nLatitude: ${provider.selectedLocation?.lat}\nLongitude: ${provider.selectedLocation?.lon}", style: AppTextStyle.regular12Black,),
                         trailing: Icon(Icons.check_circle_rounded, color: provider.selectedLocation == null ? Colors.grey : Colors.green, size: 24,),
                         onTap: () async {

@@ -120,7 +120,7 @@ class DetectorHandler {
                 mainAxisSize: MainAxisSize.min,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Text("Pilih Lokasi Penelitian", style: AppTextStyle.bold18Black,),
+                  Text("Pilih Lokasi Penghitungan", style: AppTextStyle.bold18Black,),
                   const SizedBox(height: 16,),
                   Row(
                     children: [
